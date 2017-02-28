@@ -1,0 +1,22 @@
+{
+  "name": "nitro-ui",
+  "version": "0.0.1",
+  "description": "Nitro build tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nitroUI/nitro.git"
+  },
+  "keywords": [
+    "nitro"
+  ],
+  "author": "Qodeninja <qodeninja@outlook.com> (http://qodeninja.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nitroUI/nitro/issues"
+  },
+  "homepage": "https://github.com/nitroUI/nitro#readme"
+}
