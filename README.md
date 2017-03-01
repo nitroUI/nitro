@@ -1,5 +1,7 @@
 # Nitro UI
-Nitro UI (monorepo)
+Nitro UI is an **experimental** Abstract Part Assembly sytem for generating components, independent of their framework implementation. The general idea is that by abstracting away implementation details and idiosyncracies of frontend libraries we can create solutions that are slightly more evergreen and agnostic. 
+
+Our first attempt down this path is in creating a pattern/SDK for creating components for Nitro called Parts and building a handful of simple parts against this pattern to try and validate our premise. 
 
 
 ## Nitro Parts Pattern 
