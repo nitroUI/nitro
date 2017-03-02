@@ -15,9 +15,9 @@ These top-level repos don't follow the repo naming convention.
 
 | Repo          | Repo Namespace   | Desc  |
 | ------------- |:---------------- | :-----| 
-| Nitro         | *nitroUI/nitro*  | Nitro Main | 
-| Bolt          | *nitroUI/bolt*   | Nitro CLI utility | 
-| ATS           | *nitroUI/ATS*    | Nitro Abstract Tag Specification | 
+| [Nitro](https://github.com/nitroUI/nitro)         | *nitroUI/nitro*  | Nitro Main | 
+| [Bolt](https://github.com/nitroUI/bolt)          | *nitroUI/bolt*   | Nitro CLI utility | 
+| [ATS](https://github.com/nitroUI/ats)           | *nitroUI/ATS*    | Nitro Abstract Tag Specification | 
 
 -----
 
