@@ -1,5 +1,5 @@
 # Introduction
-Nitro UI is a collection of open-source evergreen webcomponents called **Abstract Tags**, based on Nitro's [Abstract Tags Specification](https://github.com/nitroUI/abs-tag-specification). In adopting the ATS pattern for creating tags, Nitro attempts to blackbox implementation details of underlying "view-only" UI libraries like React, Vue, Polymer, and Mithril.
+Nitro UI is a collection of open-source evergreen webcomponents called **Abstract Tags**, based on Nitro's [Abstract Tag Specification](https://github.com/nitroUI/ATS). In adopting the ATS pattern for creating tags, Nitro attempts to blackbox implementation details of underlying "view-only" UI libraries like React, Vue, Polymer, and Mithril.
 
 In exposing a consistant, but implementation-indepedent featureset, Nitro enables the creation of re-usable webcomponents that are slightly more evergreen, agnostic, and future-forward (EAF).
 
