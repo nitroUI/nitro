@@ -9,7 +9,20 @@ We are big fans of native web technology, webcomponents and the HTML5 custom-tag
 
 ## Nitro Repo Naming Convention
 
-Nitro Repos follow a convention to help keep the listing organized, and quickly identify repos by their uses cases. Non-namespaced repos are discouraged.
+
+-----
+### Main Repos
+
+| Repo          | Repo Namespace   | Desc  |
+| ------------- |:---------------- | :-----| 
+| Nitro         | *nitroUI/nitro*  | Nitro Main | 
+| Bolt          | *nitroUI/bolt*   | Nitro CLI utility | 
+| ATS           | *nitroUI/ATS*    | Nitro Abstract Tag Specification | 
+
+-----
+
+### Sub Repos
+Use these convention for creating new sub-repos to help make it easy to identify repos by their uses cases. 
 
 | Repo Type          | Repo Namespace | Example |
 | ------------- |:------------------- | :-----| 
