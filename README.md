@@ -1,7 +1,11 @@
 # Introduction
-Nitro UI is an **experimental** Abstract Part Assembly sytem for generating components, independent of their underlying API. The general idea is that by abstracting away implementation details and idiosyncracies we can create components that are slightly more agnostic with the aim of being slightly more future-proof. 
+Nitro UI is a collection of open-source evergreen webcomponents called **Abstract Tags**, based on Nitro's [Abstract Tags Specification](https://github.com/nitroUI/nitro-tag-spec). In adopting the ATS pattern for creating tags, Nitro attempts to blackbox implementation details of underlying "view-only" UI libraries like React, Vue, Polymer, and Mithril.
 
-Our first attempt down this path is in drafting specification for components for Nitro called **Parts** and building a handful of simple parts against this pattern to try and validate our ambitious premise. 
+In exposing a consistant, but implementation-indepedent featureset, Nitro enables the creation of re-usable webcomponents that are slightly more evergreen, agnostic, and future-forward (EAF).
+
+# Nitro's Goal
+
+We are big fans of native web technology, webcomponents and the HTML5 custom-tag spec. As Nitro evolves with available technology and brainpower, we encourage you future contributors and end-users to help keep Nitro UI true to it's eternal goal of being "more EAF".
 
 ## Nitro Repo Naming Convention
 
@@ -35,7 +39,7 @@ Nitro Repos follow a convention to help keep the listing organized, and quickly 
 
 -----
 
-## Tag Specification
+## Abstract Tag Specification
 
 The Tag Specification outlines the *draft* guidance for creating, testing, and publishing new component Tags. Because this pattern will be foundational to the entire system, we'll need a strategy to safely synchronize updates (probably via an update/migrate script and other semver-friendly strategies)
 
