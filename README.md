@@ -5,7 +5,7 @@ Our first attempt down this path is in drafting specification for components for
 
 ## Nitro Repo Naming Convention
 
-Nitro Modules follow the following convention
+Nitro Repos follow a convention to help keep the listing organized, and quickly identify repos by their uses cases. Non-namespaced repos are discouraged.
 
 | Repo Type          | Repo Namespace | Example |
 | ------------- |:------------------- | :-----| 
@@ -18,11 +18,17 @@ Nitro Modules follow the following convention
 | Misc       | *misc-[misc-name]*     | `misc-scripts`	|  
 
 - **Module** - Top-level modules include the nitro prefix, these are either utilities, plugins, or other major features.
+
 - **Tag** - Source code HTML and custom-HTML tags used to generate distributable tag packages and follow the Nitro Tag Definition Specification.
+
 - **Theme** - Themes are a collection of partial rendering rules (mostrly structural) for creating basic tag structures; Nitro uses the Zero Theme based on Normalize.css as the default theme recipe.
-- **Skin** - Skins are the higher-fidelity styles like color, font-families, and iconography that are used to complete the UX specifications of a particular styleguide (the deltas).
-- **Scripts** - Add-on executable (bin) shell files that augement Nitro in someway but aren't critical to the overall system. They can be Python, Bash, JavaScript, or Ruby etc. and are automatically hoisted to Nitro's `./bin` directory when included. 
+
+- **Skin** - Skins are the higher-fidelity styles like color, font-families, and iconography that are used to complete the UX specifications of a particular styleguide (the deltas). Since skins derive from a theme, they are namespaced with the theme they are associated with.
+
+- **Scripts** - Add-on executable (bin) shell files that augement Nitro in someway but aren't critical to the overall system. They can be Python, Bash, JavaScript, or Ruby etc. and are automatically hoisted** to Nitro's `./bin` directory when included. (** will be)
+
 - **Doc** - Collection of project-wide documentation or notes. Individual repos have their own READMEs, etc.
+
 - **Misc** - Anything else that doesn't fall within the scope of the above namespaces should be namespaced with misc- non-namespaced repos are discouraged.
 
 ## Simple Parts Specification
