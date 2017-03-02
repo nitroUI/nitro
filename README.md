@@ -7,16 +7,23 @@ Our first attempt down this path is in drafting specification for components for
 
 Nitro Modules follow the following convention
 
-| Repo Type          | Repo Namespace | Example | Description |
-| ------------- |:------------- | :-----| :-----|
-| Module     | `nitro-[module-name]` | `nitro-util` | Top-level modules are usually utilities, plugins, or documentation and include the nitro-prefix, other repos have prefix specific to their use-case |
-| Tag       | `tag-[tag-name][?-sub-name]` | `tag-button`  |   All components/modules/tags that follow the Nitro Tag Definition Specification.  |
-| Theme    | `theme-[theme-name]` | `theme-zero`    |  Theme Engines for Nitro |
-| Skin       | `theme-[theme-name]-[skin-name]`  | `theme-zero-fresh`    |  Skin packages for Nitro Themes  |
-| Scripts    | `bin-[script-name][?-sub]` |`bin-start-robot`  |   Add-on executable shell scripts  |
-| Doc        | `doc-[doc-name][?-sub]` |`doc-requirements`  |   Document collections  |
-| Misc       | `misc-[misc-name]`     | `misc-scripts`	|  Any other resource should be namespaced with misc-.  |
+| Repo Type          | Repo Namespace | Example |
+| ------------- |:------------------- | :-----| 
+| Module     | *nitro-[module-name]*  | `nitro-util` | 
+| Tag        | *tag-[tag-name][?-sub-name]* | `tag-button`  |   
+| Theme      | *theme-[themeid]* | `theme-zero`    |  
+| Skin       | *theme-[themeid]-[skinid]*  | `theme-zero-fresh`    |  
+| Scripts    | *bin-[script-name][?-sub]* |`bin-start-robot`  | 
+| Doc        | *doc-[doc-name][?-sub]* |`doc-requirements`  |   
+| Misc       | *misc-[misc-name]*     | `misc-scripts`	|  
 
+- **Module** - Top-level modules include the nitro prefix, these are either utilities, plugins, or other major features.
+- **Tag** - Source code HTML and custom-HTML tags used to generate distributable tag packages and follow the Nitro Tag Definition Specification.
+- **Theme** - Themes are a collection of partial rendering rules (mostrly structural) for creating basic tag structures; Nitro uses the Zero Theme based on Normalize.css as the default theme recipe.
+- **Skin** - Skins are the higher-fidelity styles like color, font-families, and iconography that are used to complete the UX specifications of a particular styleguide (the deltas).
+- **Scripts** - Add-on executable (bin) shell files that augement Nitro in someway but aren't critical to the overall system. They can be Python, Bash, JavaScript, or Ruby etc. and are automatically hoisted to Nitro's `./bin` directory when included. 
+- **Doc** - Collection of project-wide documentation or notes. Individual repos have their own READMEs, etc.
+- **Misc** - Anything else that doesn't fall within the scope of the above namespaces should be namespaced with misc- non-namespaced repos are discouraged.
 
 ## Simple Parts Specification
 
