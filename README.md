@@ -3,6 +3,20 @@ Nitro UI is an **experimental** Abstract Part Assembly sytem for generating comp
 
 Our first attempt down this path is in drafting specification for components for Nitro called **Parts** and building a handful of simple parts against this pattern to try and validate our ambitious premise. 
 
+## Nitro Repo Naming Convention
+
+Nitro Modules follow the following convention
+
+| Repo Type          | Repo Namespace | Example | Description |
+| ------------- |:------------- | :-----| :-----|
+| Module     | `nitro-[module-name]` | `nitro-util` | Top-level modules are usually utilities, plugins, or documentation and include the nitro-prefix, other repos have prefix specific to their use-case |
+| Tag       | `tag-[tag-name][?-sub-name]` | `tag-button`  |   All components/modules/tags that follow the Nitro Tag Definition Specification.  |
+| Theme    | `theme-[theme-name]` | `theme-zero`    |  Theme Engines for Nitro |
+| Skin       | `theme-[theme-name]-[skin-name]`  | `theme-zero-fresh`    |  Skin packages for Nitro Themes  |
+| Scripts    | `bin-[script-name][?-sub]` |`bin-start-robot`  |   Add-on executable shell scripts  |
+| Doc        | `doc-[doc-name][?-sub]` |`doc-requirements`  |   Document collections  |
+| Misc       | `misc-[misc-name]`     | `misc-scripts`	|  Any other resource should be namespaced with misc-.  |
+
 
 ## Simple Parts Specification
 
