@@ -17,6 +17,8 @@ Nitro Repos follow a convention to help keep the listing organized, and quickly 
 | Doc        | *doc-[doc-name][?-sub]* |`doc-requirements`  |   
 | Misc       | *misc-[misc-name]*     | `misc-scripts`	|  
 
+-----
+
 - **Module** - Top-level modules include the nitro prefix, these are either utilities, plugins, or other major features.
 
 - **Tag** - Source code HTML and custom-HTML tags used to generate distributable tag packages and follow the Nitro Tag Definition Specification.
@@ -29,16 +31,14 @@ Nitro Repos follow a convention to help keep the listing organized, and quickly 
 
 - **Doc** - Collection of project-wide documentation or notes. Individual repos have their own READMEs, etc.
 
-- **Misc** - Anything else that doesn't fall within the scope of the above namespaces should be namespaced with misc- non-namespaced repos are discouraged.
+- **Misc** - Anything else that doesn't fall within the scope of the above namespaces should be namespaced with misc.
 
-## Simple Parts Specification
+-----
 
-The Simple Parts Specification outlines the *draft* guidance for creating, testing, and publishing new Parts. Because this pattern will be foundational to the entire system, we'll need a strategy to safely synchronize updates (probably via an update/migrate script and other semver-friendly strategies)
+## Tag Specification
 
-This current draft specification can be found in the [Nitro Parts Spec](https://github.com/nitroUI/nitro-parts-spec/blob/master/README.md) repo.
+The Tag Specification outlines the *draft* guidance for creating, testing, and publishing new component Tags. Because this pattern will be foundational to the entire system, we'll need a strategy to safely synchronize updates (probably via an update/migrate script and other semver-friendly strategies)
 
-## Todo
-- [ ] Component Pattern
-- [ ] Component List
-- [ ] Component Detail
-- [ ] Component Build
+This current draft specification can be found in the [Nitro Tags Spec](https://github.com/nitroUI/nitro-tag-spec) repo.
+
+
