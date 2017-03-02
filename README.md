@@ -7,11 +7,11 @@ In exposing a consistant, but implementation-indepedent featureset, Nitro enable
 
 We are big fans of native web technology, webcomponents and the HTML5 custom-tag spec. As Nitro evolves with available technology and brainpower, we encourage you future contributors and end-users to help keep Nitro UI true to it's eternal goal of being "more EAF".
 
+-----
 ## Nitro Repo Naming Convention
 
-
------
 ### Main Repos
+These top-level repos don't follow the repo naming convention.
 
 | Repo          | Repo Namespace   | Desc  |
 | ------------- |:---------------- | :-----| 
@@ -52,10 +52,5 @@ Use these convention for creating new sub-repos to help make it easy to identify
 
 -----
 
-## Abstract Tag Specification
-
-The Tag Specification outlines the *draft* guidance for creating, testing, and publishing new component Tags. Because this pattern will be foundational to the entire system, we'll need a strategy to safely synchronize updates (probably via an update/migrate script and other semver-friendly strategies)
-
-This current draft specification can be found in the [Nitro Tags Spec](https://github.com/nitroUI/nitro-tag-spec) repo.
 
 
