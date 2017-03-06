@@ -8,12 +8,18 @@ In exposing a consistant, but implementation-indepedent featureset, Nitro enable
 We are big fans of native web technology, webcomponents and the HTML5 custom-tag spec. As Nitro evolves with available technology and brainpower, we encourage you future contributors and end-users to help keep Nitro UI true to it's eternal goal of being "more EAF".
 
 -----
+## Creating Tags from Parts
+
+Parts are tag specifications and source code; once built these parts are packaged into tags. Tags are consumed by the end-user, or person using the parts in an application or module.
+
+
+-----
 ## Component Creators
-If you're building a Nitro Component, think in terms of Parts 
+If you're building a Nitro Part, think in terms of Parts 
 
 | Term                     | General Meaning  |
 | -------------------------|:---------------- |
-| *part*                   | sma               | 
+| *part*                   | smallest standalone component (atomic)      | 
 | *component*              | a collection of two or more parts           | 
 | *module*                 | a collection of two of parts and components | 
 | *application*            | 
