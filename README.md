@@ -8,6 +8,21 @@ In exposing a consistant, but implementation-indepedent featureset, Nitro enable
 We are big fans of native web technology, webcomponents and the HTML5 custom-tag spec. As Nitro evolves with available technology and brainpower, we encourage you future contributors and end-users to help keep Nitro UI true to it's eternal goal of being "more EAF".
 
 -----
+## Component Creators
+If you're building a Nitro Component, think in terms of Parts 
+
+| Term                     | General Meaning  |
+| -------------------------|:---------------- |
+| *part*                   | sma               | 
+| *component*              | a collection of two or more parts           | 
+| *module*                 | a collection of two of parts and components | 
+| *application*            | 
+
+-----
+## Component Consumers
+If you're using Nitro Components, think in terms of Tags
+
+-----
 ## Nitro Repo Naming Convention
 
 ### Main Repos
